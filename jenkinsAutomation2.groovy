@@ -1,8 +1,3 @@
-@Library('DevOpsLib')
-
-import com.regeneron.radit.devops.aws.AwsUtil
-import groovy.json.JsonOutput
-import groovy.json.JsonSlurperClassic
 
 pipeline {
     agent any
